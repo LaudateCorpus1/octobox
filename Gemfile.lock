@@ -259,7 +259,7 @@ GEM
     rb-fsevent (0.11.0)
     rb-inotify (0.10.1)
       ffi (~> 1.0)
-    redis (4.4.0)
+    redis (4.5.1)
     request_store (1.5.0)
       rack (>= 1.4)
     rexml (3.2.5)
@@ -289,7 +289,7 @@ GEM
       sidekiq (>= 3)
       thwait
       tilt (>= 1.4.0)
-    sidekiq-status (2.0.2)
+    sidekiq-status (2.1.1)
       chronic_duration
       sidekiq (>= 5.0)
     sidekiq-unique-jobs (6.0.25)
