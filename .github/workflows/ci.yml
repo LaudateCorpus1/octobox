@@ -32,13 +32,13 @@ jobs:
       - name: Install dependent libraries
         run: sudo apt-get install libpq-dev
       - name: Set up Node
-        uses: actions/setup-node@v3.0.0
+        uses: actions/setup-node@v3.4.1
         with:
           node-version: 15
       - name: Set up Ruby
         uses: ruby/setup-ruby@v1
         with:
-          ruby-version: 3.1.0
+          ruby-version: 3.1.2
           bundler-cache: true
 
       - name: Run tests
