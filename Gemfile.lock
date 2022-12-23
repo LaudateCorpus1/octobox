@@ -245,9 +245,9 @@ GEM
       activerecord (>= 5.2)
       activesupport (>= 5.2)
     popper_js (1.16.1)
+    public_suffix (5.0.1)
     psych (5.0.1)
       stringio
-    public_suffix (5.0.0)
     puma (6.0.1)
       nio4r (~> 2.0)
     puma_worker_killer (0.3.1)
