@@ -1,15 +1,15 @@
 source 'https://rubygems.org'
-ruby '3.1.0'
+ruby '3.1.2'
 
-gem 'rails', '7.0.2.2'
-gem 'bootstrap', '4.6.0'
+gem 'rails', '7.0.4'
+gem 'bootstrap', '5.2.3'
 gem 'attr_encrypted', git: 'https://github.com/octobox/attr_encrypted.git', branch: 'rails-7'
 gem 'jquery-rails'
 gem 'pagy'
 gem 'local_time'
 gem 'octicons_helper'
 gem 'octokit'
-gem 'omniauth-github', '2.0.0'
+gem 'omniauth-github', '2.0.1'
 gem 'puma'
 gem 'sassc-rails'
 gem 'turbolinks'
@@ -33,10 +33,10 @@ gem 'jwt'
 gem 'oj'
 gem 'yard', require: false
 gem 'commonmarker'
-gem 'pg', '1.3.3'
+gem 'pg', '1.4.5'
 gem 'rexml'
 gem 'omniauth-rails_csrf_protection'
-gem 'psych', '~> 3.0'
+gem 'psych', '~> 5.0'
 
 group :development, :test do
   gem 'dotenv-rails'
@@ -63,7 +63,7 @@ group :development do
 end
 
 group :production do
-  gem 'skylight', '~> 5.3.1'
+  gem 'skylight', '~> 5.3.4'
   gem 'lograge'
   gem 'puma_worker_killer'
 end
