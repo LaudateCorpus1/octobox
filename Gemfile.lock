@@ -95,8 +95,8 @@ GEM
     brakeman (5.3.1)
     brpoplpush-redis_script (0.1.3)
       concurrent-ruby (~> 1.0, >= 1.0.5)
-    bugsnag (6.25.0)
       redis (>= 1.0, < 6)
+    bugsnag (6.25.0)
       concurrent-ruby (~> 1.0)
     builder (3.2.4)
     chronic_duration (0.10.6)
@@ -200,7 +200,7 @@ GEM
       net-protocol
     net-protocol (0.2.1)
       timeout
-    net-smtp (0.3.2)
+    net-smtp (0.3.3)
       net-protocol
     nio4r (2.5.8)
     nokogiri (1.13.10)
@@ -242,16 +242,15 @@ GEM
     omniauth-rails_csrf_protection (1.0.1)
       actionpack (>= 4.2)
       omniauth (~> 2.0)
-    pg (1.4.5)
     pagy (6.0.0)
-      activesupport
+    pg (1.4.5)
     pg_search (2.3.6)
       activerecord (>= 5.2)
       activesupport (>= 5.2)
     popper_js (2.11.6)
-    public_suffix (5.0.1)
     psych (5.0.1)
       stringio
+    public_suffix (5.0.1)
     puma (6.0.1)
       nio4r (~> 2.0)
     puma_worker_killer (0.3.1)
